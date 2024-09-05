@@ -1,0 +1,122 @@
+/* Estilos del cuerpo y texto */
+body {
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.nombre-usuario {
+    font-family: 'Cabin', serif;
+    color: #faf0e6; /* Color elegante */
+    font-weight: bold;
+}
+
+/* Estilos de la sección Footer */
+.footer {
+    padding: 55px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las cajitas */
+}
+
+/* Estilos para las redes sociales */
+.social-box {
+    background-color: #444;
+    border-radius: 58px;
+    padding: 15px 15px;
+    width: 100px; /* Ancho de cada cajita */
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.social-box a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos específicos para cada red social */
+.youtube {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.spotify {
+    background-color: rgba(29, 185, 84, 0.5);
+}
+
+.instagram {
+    background-color: rgba(225, 48, 108, 0.5);
+}
+
+/* Estilos de la sección de canciones */
+.canciones-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las cajitas horizontalmente */
+    gap: 20px; /* Espacio entre las cajitas */
+}
+
+.cancion-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px; /* Ancho de cada cajita */
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.cancion-image img {
+    width: 100%; /* Imagen llena el ancho de la cajita */
+    border-bottom: 2px solid #f4f4f4; /* Línea separadora */
+}
+
+.cancion-info {
+    padding: 10px 0;
+}
+
+.cancion-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Estilos de los botones */
+.boton-login {
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.boton-login:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/* Estilo para el botón en la parte superior izquierda */
+.btn-top-left {
+    position: absolute; /* Permite posicionar el botón con respecto a su contenedor */
+    top: 100px; /* Margen desde la parte superior de la página */
+    left: 10px; /* Margen desde la parte izquierda de la página */
+    padding: 10px 20px; /* Espaciado interno del botón */
+}
+
+.btn-top-right {
+    position: absolute; /* Permite posicionar el botón con respecto a su contenedor */
+    top: 100px; /* Margen desde la parte superior de la página */
+    right: 10px; /* Margen desde la parte izquierda de la página */
+    padding: 10px 20px; /* Espaciado interno del botón */
+}
+.btn-top-2right {
+    position: absolute; /* Permite posicionar el botón con respecto a su contenedor */
+    top: 100px; /* Margen desde la parte superior de la página */
+    right: 70px; /* Margen desde la parte izquierda de la página */
+    padding: 10px 20px; /* Espaciado interno del botón */
+}

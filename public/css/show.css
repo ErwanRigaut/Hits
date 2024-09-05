@@ -1,0 +1,92 @@
+
+/* Fuente por defecto para el body */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+}
+
+/* Estilos específicos para la fuente Goudy Bookletter 1911 */
+.nombre-usuario,
+.boton-login {
+   font-family: 'Goudy Bookletter 1911', serif;
+}
+
+/* Estilo para el nombre de usuario */
+.nombre-usuario {
+   color: #ffbf00; /* Color elegante */
+   font-weight: bold;
+   text-shadow: 1px 1px 0 #E6E6E6, 
+                -1px -1px 0 #E6E6E6, 
+                1px -1px 0 #E6E6E6, 
+                -1px 1px 0 #E6E6E6;
+}
+
+/* Estilo para el botón de login */
+
+.boton-login {
+   font-family: 'Goudy Bookletter 1911', serif;
+   color: #ffffff;
+   background-color: transparent;
+   border: 2px solid #ffffff;
+   padding: 5px 15px;
+   border-radius: 5px;
+   transition: all 0.3s ease;
+
+  
+}
+
+
+.boton-login:hover {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+
+/* Estilo del contenedor principal */
+.container {
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px;
+   background: #fff;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los encabezados */
+h1 {
+   text-align: center;
+   color: #333;
+}
+
+/* Estilos para la lista de elementos */
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+/* Estilos para cada elemento de la lista */
+li {
+   background: #eaeaea;
+   margin: 10px 0;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las imágenes dentro de la lista */
+img {
+   border-radius: 5px;
+}
+
+/* Estilo para los enlaces */
+a {
+   color: #3490dc;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+   

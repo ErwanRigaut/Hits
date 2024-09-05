@@ -1,0 +1,38 @@
+
+body {
+ font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.nombre-usuario {
+ font-family: 'Cabin', serif;
+ color: #faf0e6; /* Color elegante */
+ font-weight: bold;
+
+
+}
+
+
+.boton-login {
+ font-family: 'Goudy Bookletter 1911', serif;
+ color: #ffffff;
+ background-color: transparent;
+ border: 2px solid #ffffff;
+ padding: 5px 15px;
+ border-radius: 5px;
+ transition: all 0.3s ease;
+
+
+}
+
+
+.boton-login:hover {
+ background-color: #FFFFFF;
+ color: #000000;
+}
+.btn-top-left {
+ position: absolute; /* Permite posicionar el botón con respecto a su contenedor */
+  /* Margen desde la parte superior de la página */
+ left: 10px; /* Margen desde la parte izquierda de la página */
+ padding: 10px 20px; /* Espaciado interno del botón */
+ 
+}
